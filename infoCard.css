@@ -1,0 +1,80 @@
+/************************************/
+/*****     Info Card Basics     *****/
+/*             ******               */
+
+.infoCard{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    }
+
+.infoCard.left{
+    position: relative;
+    float: left;
+    max-width: 450px;
+}
+
+.infoCard.centered{
+    position: relative;
+}
+
+
+.infoCard.right{
+    position: relative;
+    float: right;
+    max-width: 450;
+}
+
+.infoCard.small{
+    height: 100px;
+    width: 200px;
+}
+
+.infoCard.medium{
+    height: 170px;
+    width: 200px;
+}
+
+.infoCard.large{
+    height: 260px;
+    width: 200px;
+}
+
+
+/********************************/
+/*****     Bits of Info     *****/
+/*            *****             */
+.info{
+
+}
+
+.info.name{
+
+}
+
+.info.title{
+
+}
+
+.info.picture{
+
+}
+
+.info.website{
+
+}
+
+.info.phone{
+
+}
+
+.info.address{
+
+}
+
+.info.bio{
+
+}
+
