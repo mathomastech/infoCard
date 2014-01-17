@@ -10,52 +10,65 @@
     box-shadow: 0px 2px 3px rgb(153, 153, 153);
     }
 
-.infoCard.left{
-    position: relative;
-    float: left;
-    max-width: 450px;
-}
-
-.infoCard.centered{
-    position: relative;
-}
-
-
-.infoCard.right{
-    position: relative;
-    float: right;
-    max-width: 450;
-}
-
-.infoCard.small{
+.infoCard.type1{
     height: 100px;
     width: 200px;
 }
 
-.infoCard.medium{
-    height: 170px;
-    width: 200px;
+.infoCard.type2{
+    height:150px;
+    width: 400px;
 }
 
-.infoCard.large{
-    height: 260px;
-    width: 200px;
+.infoCard.type3{
+    height: 200px;
+    width: 600px;
 }
 
+.infoCard.type4{
+    height: 250px;
+    width: 800px;
+}
+
+.infoCard.type5{
+    height: 350px;
+    width: 200px;
+}
 
 /********************************/
 /*****     Bits of Info     *****/
 /*            *****             */
-.info{
 
+.info{
+    text-align: left;
+    font-size: 12pt;
+    font-family: 'Roboto', 'Times New Roman', sans-serif;
+    color: rgb(59,59,59);
+    margin: 0px;
 }
 
 .info.name{
+    font-size: 15pt;
+}
+
+.info.firstName{
+    font-size: 15pt;
+    color: darkGrey;
+    position: relative;
+    float: left;
+    margin-right: 5px;
 
 }
 
-.info.title{
+.info.lastName{
+    font-size:15pt;
+    color: grey;
+    float: left;
+    position: relative;
+}
 
+.info.title{
+    font-style: italic;
 }
 
 .info.picture{
