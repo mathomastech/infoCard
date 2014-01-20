@@ -10,29 +10,19 @@
     box-shadow: 0px 2px 3px rgb(153, 153, 153);
     }
 
-.infoCard.type1{
-    height: 100px;
-    width: 200px;
-}
-
-.infoCard.type2{
-    height:150px;
+.infoCard.small{
+    height:140px;
     width: 500px;
 }
 
-.infoCard.type3{
+.infoCard.medium{
     height: 200px;
     width: 600px;
 }
 
-.infoCard.type4{
-    height: 250px;
+.infoCard.large{
+    height: 235px;
     width: 800px;
-}
-
-.infoCard.type5{
-    height: 350px;
-    width: 200px;
 }
 
 /********************************/
@@ -48,11 +38,11 @@
 }
 
 
-.info.floatLeftGroup{
+.info.floatLeft{
     float: left;   
 }
 
-.info.floatRightGroup{
+.info.floatRight{
     float: right;   
 }
 
@@ -62,7 +52,6 @@
 
 .info.picture{
     float: right;
-    position: relative;
 }
 
 .info.contact{
