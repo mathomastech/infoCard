@@ -17,7 +17,7 @@
 
 .infoCard.type2{
     height:150px;
-    width: 400px;
+    width: 500px;
 }
 
 .infoCard.type3{
@@ -47,47 +47,25 @@
     margin: 0px;
 }
 
+
+.info.floatLeftGroup{
+    float: left;   
+}
+
+.info.floatRightGroup{
+    float: right;   
+}
+
 .info.name{
     font-size: 15pt;
 }
 
-.info.firstName{
-    font-size: 15pt;
-    color: darkGrey;
-    position: relative;
-    float: left;
-    margin-right: 5px;
-
-}
-
-.info.lastName{
-    font-size:15pt;
-    color: grey;
-    float: left;
+.info.picture{
+    float: right;
     position: relative;
 }
 
-.info.title{
+.info.contact{
+    text-align:right;
     font-style: italic;
 }
-
-.info.picture{
-
-}
-
-.info.website{
-
-}
-
-.info.phone{
-
-}
-
-.info.address{
-
-}
-
-.info.bio{
-
-}
-
